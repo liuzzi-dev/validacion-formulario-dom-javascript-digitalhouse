@@ -91,6 +91,8 @@ const validarFormulario = () => {
         ocultarError(errorAceptoTerminos);
     }
 
+    return validacionCorrecta;
+
 };
 
 const mostrarError = (elemento, mensaje) => {
